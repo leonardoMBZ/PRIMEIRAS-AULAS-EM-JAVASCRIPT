@@ -1,0 +1,26 @@
+// SCRIPT PARA CALCULAR A MEDIA DE NOTAS DO 1º 2º 3º SEMESTRE DA FACULDADE
+
+const notas = [];
+ notas.push(8.5); 
+ notas.push(7.5);
+ notas.push(8.5);
+ notas.push(8.5);
+ notas.push(7); 
+ notas.push(9);
+ notas.push(9); 
+ notas.push(8.05);
+ notas.push(8.80); 
+ notas.push(9.45);
+ notas.push(7.75); 
+ notas.push(7);
+ notas.push(9);
+
+let boletim = notas[0] + notas[1] +  notas[2] + notas[3] + notas[4]+ notas[5] + notas[6] + notas[7] + notas[8] + notas[9] + notas[10] + notas[11] + notas[12] 
+
+for (let i = 0; 10 <i; i++) {
+    const valronota = boletim[i];
+    boletim = boletim + notas;
+    
+}
+let soma = boletim / notas.length;
+console.log(soma);
